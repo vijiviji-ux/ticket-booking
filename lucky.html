@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Seat Booking</title>
+    <link rel="icon" href="./images/lbasker1.webp">
+    <link rel="stylesheet" href="./css/lucky.css">
+    
+    
+</head>
+<body>
+    <h1>LUCKY BASKER TICKET BOOKING</h1>
+    <div class="container">
+        <div class="screen">Screen</div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <button id="bookButton">Book Tickets</button>
+    </div>
+
+    <table id="bookingTable" class="booking-summary" style="display: none;">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Total Seats</th>
+                <th>Price per Seat</th>
+                <th>GST (18%)</th>
+                <th>Final Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td id="seatCount">0</td>
+                <td id="seatPrice">₹0</td>
+                <td id="gst">₹0</td>
+                <td id="finalPrice">₹0</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="button">
+        <button type="button" style="background-color: yellow;"><a href="index.html" target="_blank">Home</a></button>
+    </div>
+
+    <script src="./javascript/lucky.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+
+.form-control{
+    padding-left: 79px;
+}
+.navbms{
+  background-color: #2C324A;
+}
+
+.header{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.button{
+    background-color: #2C324A;
+    color: white;
+}
+
+.slimer img {
+    width: 100%;    
+    height: auto;   
+    display: block;
+    margin-top: 50px;
+  }
+  .events img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  .primerse {
+    width: 100%; 
+    max-width: 1440px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    margin-top: 20px;
+  }
+  
+  
+  .primerse img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+
+  
+
+
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #2C324A;
+  }
+  .movie-card {
+    background-color: #2d2d3b; /* Slightly lighter background for cards */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px; /* Fixed width for desktop */
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .movie-card:hover {
+    transform: translateY(-10px);
+  }
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-details {
+    padding: 10px;
+  }
+  
+  .movie-details h3 {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    color: white;
+  }
+  
+  .movie-details p {
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .footer {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 40px 20px;
+    margin-top: 30px;
+  }
+
+  .footer .icon-section {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer .icon-section div {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .footer .icon-section div i {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .footer h6 {
+    color: #ff7f7f;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+
+  .footer a:hover {
+    color: #ffffff;
+  }
+  .footer-bottom {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #ccc;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bmsimg img{
+  margin-left: 45%;
+}
+
+
+
+  
+
+  @media screen and (max-width:700px) {
+    .header{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .slimer img { 
+        max-width: 100%;
+        margin-top: 10px; 
+      }
+
+      .events img{
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+        margin-left: 20px;
+      }
+      .primerse {
+        width: 100%; 
+        padding: 0; 
+      }
+    
+      .primerse img {
+        width: 100%;
+      }
+      .movies-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .movie-card {
+        width: 60%;
+        height: 35%;
+      }
+
+      .footer .icon-section div {
+        margin: 10px 10px;
+      }
+
+      .footer .links-section {
+        text-align: center;
+      }
+
+      .footer .links-section div {
+        margin-bottom: 20px;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bmsimg img{
+      margin-left: 38%;
+    }
+
+
+
+    }

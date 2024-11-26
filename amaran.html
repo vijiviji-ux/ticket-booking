@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amaran Movie Seat Booking</title>
+    <link rel="icon" href="./images/amaran3.jpg">
+    <link rel="stylesheet" href="./css/amaran.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head> 
+<body>
+    <h1>AMARAN TICKET BOOKING</h1>
+    <div class="container">
+        <div class="screen">Screen</div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <button id="bookButton">Book Tickets</button>
+    </div>
+
+    <table id="bookingTable" class="booking-summary" style="display: none;">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Total Seats</th>
+                <th>Price per Seat</th>
+                <th>GST (18%)</th>
+                <th>Final Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td id="seatCount">0</td>
+                <td id="seatPrice">₹0</td>
+                <td id="gst">₹0</td>
+                <td id="finalPrice">₹0</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- card in jquery -->
+   
+        <div class="card" id="card_jqy" style="width: 18rem;">
+            <img src="./images/amaran3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amaran Movie</h5>
+              <p class="card-text">A true-life story of Major Mukund Varadarajan,a commissioned officer in the indian army's Rajput Regitment,who was posthumously awarded the Ashok Chakra.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Director- Rajkumar Periasamy</li>
+              <li class="list-group-item">Release date-31/oct/2024</li>
+              <li class="list-group-item">Run time-2 hours</li>
+            </ul>
+            <div class="card-body">
+              <!-- <a href="#" class="card-link">Card link</a> -->
+              <a href="index.html"target="_blank" class="card-link">Amaran movie link</a>
+            </div>
+          </div>
+
+    <div class="button">
+        
+        <button type="button" id="show_btn" style="background-color: white; color: black;">Show your Movie</a></button>
+        <button type="button" id="hide_btn" style="background-color: red; color: black;">Hide your Movie</a></button>
+    </div>
+
+    <div class="button">
+        <button type="button" style="background-color: yellow;"><a href="index.html" target="_blank">Home</a></button>
+    </div>
+
+    <script src="./javascript/amaran.js"></script>
+      
+</body>
+</html>
+
+
+
